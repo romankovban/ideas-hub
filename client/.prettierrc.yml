@@ -1,0 +1,5 @@
+printWidth: 120 # string length
+tabWidth: 2 # tab length
+trailingComma: es5 # comma
+semi: false # ;
+singleQuote: true # ''
