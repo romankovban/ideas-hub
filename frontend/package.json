@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "@ideas-hub/frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,10 @@
     "prettify": "prettier --log-level warn --cache --write '{src/**/*,*}.{ts,tsx,js,json,yml,scss}' --ignore-path ../.prettierignore"
   },
   "dependencies": {
+    "@ideas-hub/backend": "workspace:*",
+    "@tanstack/react-query": "^5.75.7",
+    "@trpc/client": "^11.1.2",
+    "@trpc/react-query": "^11.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
