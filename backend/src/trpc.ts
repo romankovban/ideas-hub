@@ -1,5 +1,4 @@
 import { initTRPC } from '@trpc/server'
-import { get } from 'http'
 
 const ideas = [
   { nick: 'cool-idea-nick-1', name: 'Idea 1', description: 'Description of idea 1...' },
